@@ -28,11 +28,14 @@ fetch('data/Knoxville_Breweries_points.geojson')
 
 // Greenways - line layer
 fetch('data/knoxville_greenways_lines.geojson')
+fetch('data/knoxville_greenways_lines.geojson')
     .then(response => response.json())
     .then(data => {
         L.geoJSON(data, {
             style: {
-                weight: 4
+                color: 'purple', 
+                weight: 4,
+                opacity: 0.8
             }
         }).addTo(map);
     });
@@ -43,10 +46,10 @@ fetch('data/knoxville_parks_polygons.geojson')
     .then(data => {
         L.geoJSON(data, {
             style: {
-                color: 'darkgreen',      // outline
-                weight: 1,               // thin border
-                fillColor: 'lightgreen', // inside color
-                fillOpacity: 0.2         // VERY transparent
+                color: 'darkgreen',      
+                weight: 1,               
+                fillColor: 'lightgreen', 
+                fillOpacity: 0.2         
             }
         }).addTo(map);
     });
