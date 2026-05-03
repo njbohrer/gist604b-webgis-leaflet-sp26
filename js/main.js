@@ -23,9 +23,12 @@ fetch('data/Knoxville_Breweries_points.geojson')
             fillOpacity: 0.4
         });
     },
-    onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.name);
-    }
+onEachFeature: function (feature, layer) {
+    layer.bindPopup(
+        "<b>" + feature.properties.name + "</b><br>" +
+        "Hours: " + feature.properties.opening_hours
+    );
+}
 }).addTo(map);
     });
 
