@@ -42,6 +42,9 @@ fetch('data/knoxville_greenways_lines.geojson')
                 color: 'purple', 
                 weight: 4,
                 opacity: 0.8
+            },
+           onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.properties.name);
             }
         }).addTo(map);
     });
