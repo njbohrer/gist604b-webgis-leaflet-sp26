@@ -9,23 +9,39 @@ L.control.scale().addTo(map);
 
 console.log("main.js is running")//trouble shooting load errors
 
-// Load breweries point GeoJSON
+// Breweries - point layer
 fetch('data/Knoxville_Breweries_points.geojson')
     .then(response => response.json())
     .then(data => {
-        L.geoJSON(data).addTo(map);
+        L.geoJSON(data, {
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius: 6,
+                    fillOpacity: 0.8
+                });
+            }
+        }).addTo(map);
     });
 
-// Load greenways line GeoJSON
+// Greenways - line layer
 fetch('data/knoxville_greenways_lines.geojson')
     .then(response => response.json())
     .then(data => {
-        L.geoJSON(data).addTo(map);
+        L.geoJSON(data, {
+            style: {
+                weight: 4
+            }
+        }).addTo(map);
     });
 
-// Load parks polygon GeoJSON
+// Parks - polygon layer
 fetch('data/knoxville_parks_polygons.geojson')
     .then(response => response.json())
     .then(data => {
-        L.geoJSON(data).addTo(map);
+        L.geoJSON(data, {
+            style: {
+                weight: 1,
+                fillOpacity: 0.25
+            }
+        }).addTo(map);
     });
