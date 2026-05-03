@@ -7,6 +7,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.control.scale().addTo(map);
 
+console.log("main.js is running")//trouble shooting load errors
+
 // Load breweries point GeoJSON
 fetch('data/Knoxville_Breweries_points.geojson')
     .then(response => response.json())
