@@ -59,6 +59,10 @@ fetch('data/knoxville_parks_polygons.geojson')
                 weight: 1,               
                 fillColor: 'lightgreen', 
                 fillOpacity: 0.2         
+            },
+             onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.properties.name);
             }
+
         }).addTo(map);
     });
