@@ -1,8 +1,9 @@
 var map = L.map('map').setView([35.9606, -83.9207], 12);
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap'
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CartoDB',
+    subdomains: 'abcd',
+    maxZoom: 19
 }).addTo(map);
 
 L.control.scale().addTo(map);
