@@ -69,14 +69,17 @@ fetch('data/knoxville_parks_polygons.geojson')
 
     var legend = L.control({ position: 'bottomright' });
 
+// Legend
+var legend = L.control({ position: 'bottomright' });
+
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
 
     div.innerHTML =
         "<h4>Legend</h4>" +
-        "<div><span style='color:red;'>●</span> Breweries</div>" +
-        "<div><span style='color:purple;'>―</span> Greenways</div>" +
-        "<div><span style='color:green;'>■</span> Parks</div>";
+        "<div><span style='color:red; font-size:16px;'>●</span> Breweries</div>" +
+        "<div><span style='color:purple; font-size:16px;'>―</span> Greenways</div>" +
+        "<div><span style='color:green; font-size:16px;'>■</span> Parks</div>";
 
     return div;
 };
