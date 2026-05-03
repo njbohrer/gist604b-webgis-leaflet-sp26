@@ -1,4 +1,7 @@
 var map = L.map('map').setView([35.9606, -83.9207], 12);
+var breweriesGroup = L.layerGroup();
+var greenwaysGroup = L.layerGroup();
+var parksGroup = L.layerGroup();
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap &copy; CartoDB',
@@ -29,7 +32,7 @@ onEachFeature: function (feature, layer) {
         "Hours: " + feature.properties.opening_hours
     );
 }
-}).addTo(map);
+}).addTo(breweriesGroup);
     });
 
 // Greenways - line layer
@@ -46,7 +49,7 @@ fetch('data/knoxville_greenways_lines.geojson')
            onEachFeature: function (feature, layer) {
                 layer.bindPopup(feature.properties.name);
             }
-        }).addTo(map);
+        }).addTo(greenwaysGroup);
     });
 
 // Parks - polygon layer
@@ -64,10 +67,9 @@ fetch('data/knoxville_parks_polygons.geojson')
                 layer.bindPopup(feature.properties.name);
             }
 
-        }).addTo(map);
+        }).addTo(parksGroup);
     });
 
-    var legend = L.control({ position: 'bottomright' });
 
 var legend = L.control({ position: 'bottomright' });
 
@@ -90,3 +92,11 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+var overlayMaps = {
+    "Breweries": breweriesGroup,
+    "Greenways": greenwaysGroup,
+    "Parks": parksGroup
+};
+
+L.control.layers(null, overlayMaps).addTo(map);
