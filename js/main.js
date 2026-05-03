@@ -40,8 +40,9 @@ fetch('data/knoxville_parks_polygons.geojson')
     .then(data => {
         L.geoJSON(data, {
             style: {
+                color: 'darkgreen'
                 weight: 1,
-                fillOpacity: 0.25
+                fillOpacity: 0.35
             }
         }).addTo(map);
     });
