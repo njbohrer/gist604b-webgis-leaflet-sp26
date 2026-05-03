@@ -1,0 +1,351 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-03T01:40:32Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3773289023",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "1130",
+        "addr:postcode": "37920",
+        "addr:street": "Sevier Ave",
+        "air_conditioning": "yes",
+        "check_date": "2026-02-22",
+        "check_date:opening_hours": "2026-02-22",
+        "contact:facebook": "AllianceBrewingCo",
+        "contact:instagram": "alliancebrewing",
+        "contact:twitter": "alliancebrew",
+        "craft": "brewery",
+        "name": "Alliance Brewing Company",
+        "opening_hours": "Su-Mo 12:00-20:00; Tu-Sa 12:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-865-247-5355",
+        "source": "OSM Aerial photos",
+        "website": "https://alliancebrewing.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9035469,
+          35.9593516
+        ]
+      },
+      "id": "node/3773289023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4551225656",
+        "craft": "brewery",
+        "name": "Saw Works Brewery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.914667,
+          35.9748264
+        ]
+      },
+      "id": "node/4551225656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5307368310",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "745",
+        "addr:postcode": "37917",
+        "addr:state": "TN",
+        "addr:street": "North Broadway",
+        "contact:facebook": "yeehawbrewing",
+        "contact:instagram": "yeehawbrewing",
+        "contact:twitter": "yeehawbrewing",
+        "craft": "brewery",
+        "name": "Yee-Haw Brewing",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-865-210-8862",
+        "product": "beer",
+        "website": "https://yeehawbrewing.com/knoxville/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9238319,
+          35.9778776
+        ]
+      },
+      "id": "node/5307368310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6169018827",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "100",
+        "addr:postcode": "37919",
+        "addr:state": "TN",
+        "addr:street": "Lockett Road",
+        "contact:facebook": "abridgedbeer",
+        "contact:instagram": "abridgedbeer_brewpub",
+        "craft": "brewery",
+        "name": "Abridged Beer Company",
+        "opening_hours": "Mo-Sa 11:00-22:00",
+        "phone": "+1 865-200-8059",
+        "product": "beer;food",
+        "website": "https://www.abridgedbeer.com/brewpub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0156518,
+          35.9316779
+        ]
+      },
+      "id": "node/6169018827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6190642114",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "6",
+        "addr:postcode": "37917",
+        "addr:state": "TN",
+        "addr:street": "Emory Place",
+        "contact:facebook": "craftybastardbreweryemoryplace",
+        "contact:instagram": "craftybastardbrewery",
+        "craft": "brewery",
+        "name": "Crafty Bastard Brewery",
+        "opening_hours": "Mo 17:00-22:00; Tu-Th 16:00-22:00; Fr 16:00-23:00; Sa 12:00-23:00; Su 12:00-21:00",
+        "phone": "+1-865-333-8235",
+        "website": "https://www.craftybastardbrewery.com/locations/downtown-knoxville/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9224135,
+          35.9744013
+        ]
+      },
+      "id": "node/6190642114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814448753",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "7240",
+        "addr:postcode": "37919",
+        "addr:state": "TN",
+        "addr:street": "Kingston Pike",
+        "addr:unit": "172",
+        "amenity": "restaurant",
+        "brewery": "yes",
+        "cuisine": "american",
+        "name": "Tomato Head",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-865-584-1075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0307971,
+          35.9289234
+        ]
+      },
+      "id": "node/6814448753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8104624504",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "213",
+        "addr:postcode": "37917",
+        "addr:state": "TN",
+        "addr:street": "East 5th Avenue",
+        "contact:facebook": "xulbeerco",
+        "contact:instagram": "xulbeer",
+        "craft": "brewery",
+        "name": "Xul Beer",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-20:00",
+        "operator": "Xul Beer Co",
+        "phone": "+1 865-200-5119",
+        "product": "beer",
+        "website": "https://xulbeer.com/location/5th-ave/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9202805,
+          35.974744
+        ]
+      },
+      "id": "node/8104624504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8618658270",
+        "craft": "brewery",
+        "name": "Printshop Beer Co.",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8967279,
+          35.9603537
+        ]
+      },
+      "id": "node/8618658270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8665834615",
+        "craft": "brewery",
+        "name": "Last Days of Autumn",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.914596,
+          35.9759118
+        ]
+      },
+      "id": "node/8665834615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8873238099",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "yes",
+        "cuisine": "american",
+        "name": "Calhoun’s on the River",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9157272,
+          35.9591257
+        ]
+      },
+      "id": "node/8873238099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9193985230",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "yes",
+        "contact:instagram": "saloon16knox",
+        "cuisine": "american;burger",
+        "internet_access": "yes",
+        "name": "Saloon 16",
+        "opening_hours": "Mo-Th 17:00-00:00; Fr 17:00-01:00; Su 17:00-22:00; Sa 11:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-865-437-5500",
+        "reservation": "yes",
+        "website": "https://saloon16.com/",
+        "website:menu": "http://saloon16.com/menus",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9324708,
+          35.9555499
+        ]
+      },
+      "id": "node/9193985230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9200282958",
+        "addr:housenumber": "217",
+        "addr:postcode": "37902",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "contact:facebook": "pourtaproomknoxville",
+        "contact:instagram": "pourtaproomknoxville",
+        "email": "knoxville@pourtaproom.com",
+        "microbrewery": "yes",
+        "name": "Pour Taproom",
+        "opening_hours": "Su-Th 12:00-00:00; Fr-Sa 12:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 865-337-5726",
+        "website": "https://pourtaproom.com/index.php/locations/pour-taproom-knoxville/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9201524,
+          35.9694627
+        ]
+      },
+      "id": "node/9200282958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11652256060",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "9937",
+        "addr:postcode": "37922",
+        "addr:state": "TN",
+        "addr:street": "Kingston Pike",
+        "craft": "brewery",
+        "name": "Crafty Bastard Brewery West",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 12:00-22:00; Su 12:00-19:00",
+        "phone": "+1-865-770-8743",
+        "website": "https://www.craftybastardbrewery.com/crafty-west-homepage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1143668,
+          35.9048886
+        ]
+      },
+      "id": "node/11652256060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11652265590",
+        "addr:city": "Knoxville",
+        "addr:housenumber": "3726",
+        "addr:postcode": "37920",
+        "addr:state": "TN",
+        "addr:street": "Sevier Heights Road",
+        "addr:unit": "202",
+        "craft": "brewery",
+        "name": "Crafty Bakser Creek",
+        "website": "https://www.craftybastardbrewery.com/crafty-baker-creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8900199,
+          35.9424227
+        ]
+      },
+      "id": "node/11652265590"
+    }
+  ]
+}
