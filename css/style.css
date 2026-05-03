@@ -18,11 +18,33 @@ html, body {
     font-size: 14px;
 }
 
-.info.legend h4 {
-    margin: 0 0 5px 0;
-    font-weight: bold;
+/* Brewery circle */
+.legend-point {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: red;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    margin-right: 6px;
 }
 
-.info.legend div {
-    margin-bottom: 4px;
+/* Greenway line (thicker) */
+.legend-line {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background: purple;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Park polygon box */
+.legend-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: lightgreen;
+    border: 1px solid darkgreen;
+    margin-right: 6px;
 }
