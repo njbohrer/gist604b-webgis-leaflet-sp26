@@ -12,16 +12,17 @@ console.log("main.js is running")//trouble shooting load errors
 fetch('data/Knoxville_Breweries_points.geojson')
     .then(response => response.json())
     .then(data => {
-        L.geoJSON(data, {
-            pointToLayer: function (feature, latlng) {
-                return L.circleMarker(latlng, {
-                    radius: 7,
-                    color: 'red',
-                    fillColor: 'red',
-                    fillOpacity: 0.8
-                });
-            }
-        }).addTo(map);
+       L.geoJSON(data, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            radius: 6,
+            color: 'darkred',
+            weight: 2,
+            fillColor: 'red',
+            fillOpacity: 0.4
+        });
+    },
+}).addTo(map);
     });
 
 // Greenways - line layer
