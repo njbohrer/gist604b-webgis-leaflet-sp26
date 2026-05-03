@@ -9,14 +9,15 @@ L.control.scale().addTo(map);
 
 console.log("main.js is running")//trouble shooting load errors
 
-// Breweries - point layer
 fetch('data/Knoxville_Breweries_points.geojson')
     .then(response => response.json())
     .then(data => {
         L.geoJSON(data, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
-                    radius: 6,
+                    radius: 7,
+                    color: 'red',
+                    fillColor: 'red',
                     fillOpacity: 0.8
                 });
             }
