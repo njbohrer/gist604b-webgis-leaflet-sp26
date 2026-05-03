@@ -66,3 +66,19 @@ fetch('data/knoxville_parks_polygons.geojson')
 
         }).addTo(map);
     });
+
+    var legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+
+    div.innerHTML =
+        "<h4>Legend</h4>" +
+        "<div><span style='color:red;'>●</span> Breweries</div>" +
+        "<div><span style='color:purple;'>―</span> Greenways</div>" +
+        "<div><span style='color:green;'>■</span> Parks</div>";
+
+    return div;
+};
+
+legend.addTo(map);
